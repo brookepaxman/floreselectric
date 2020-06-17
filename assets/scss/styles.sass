@@ -1,0 +1,632 @@
+html
+  height: 100%
+  overflow: scroll
+
+body
+  font-family: 'Roboto', sans-serif
+  padding: 0
+  margin: 0
+  overflow: hidden
+  font-weight: lighter
+a
+  cursor: pointer
+
+h1
+  font-size: 41px
+  color: #4A4A4A
+  font-family: 'Roboto', sans-serif
+  overflow-x: hidden
+  font-weight: 900
+  letter-spacing: 0.4px
+  text-align: center
+
+@media(max-width: 768px)
+  h1
+    font-size: 29px
+  .free-quote
+    margin-left: 30px
+
+h3
+  font-family: 'din-2014', sans-serif
+  font-size: 26px
+  color: #4A4A4A
+  letter-spacing: 0.47px
+  font-weight: 300
+  font-style: normal
+  line-height: 36px
+  text-transform: uppercase
+
+h2
+  font-family: 'Roboto', sans-serif
+  color: #4A4A4A
+  font-size: 29px
+  line-height: 46px
+  font-weight: 600
+  text-align: center
+
+@media(max-width: 991px)
+  h2
+    font-size: 26px
+    line-height: 36px
+
+@media(max-width: 768px)
+  h2
+    font-size: 21px
+    line-height: 30px
+
+
+h4
+  font-family: 'din-2014', sans-serif
+  font-weight: 500
+  font-size: 20px
+  color: #4A4A4A
+  letter-spacing: 0
+  text-align: center
+  line-height: 31px
+
+h5
+  font-family: 'Roboto', sans-serif
+  font-style: normal
+  font-weight: 400
+  font-size: 20px
+  color: #FA7E00
+  letter-spacing: 2.07px
+  text-align: center
+
+h6
+  font-family: 'Roboto', sans-serif
+  font-size: 18px
+  font-weight: 600
+  color: #4A4A4A
+  letter-spacing: 0.81px
+  text-align: center
+  line-height: 19px
+
+p
+  font-size: 17px
+  letter-spacing: normal
+  color: #4A4A4A
+  font-weight: normal
+  font-family: 'Roboto', sans-serif
+
+.footer
+  position: relative
+  z-index: 2
+  margin-top: -4px
+
+.low-header
+  padding-bottom: 37%
+  background-size: cover
+  background-position: center
+  position: relative
+  min-height: 480px
+  overflow: hidden
+  img
+    min-width: 1400px
+    position: absolute
+    bottom: 0
+    left: 50%
+    transform: translateX(-50%)
+    width: calc(100% + 6px)
+
+.light-din
+  font-family: 'din-2014', sans-serif
+  font-weight: 300
+  font-style: normal
+
+.upper-nav
+  p
+    font-family: 'Roboto', sans-serif
+    font-weight: normal
+    font-size: 13px
+    color: #FFFFFF
+    letter-spacing: 0.11px
+
+.upper-nav-stacked
+  p
+    font-family: 'Roboto', sans-serif
+    font-weight: normal
+    font-size: 13px
+    color: #FFFFFF
+    letter-spacing: 0.11px
+
+@media(max-width: 768px)
+  .upper-nav
+    display: none
+  .upper-nav-stacked
+    height: 42px
+    display: flex
+    background-color: #494846
+    text-align: center
+    ul
+      display: flex
+      width: fit-content
+      margin-left: auto
+      margin-right: auto
+      padding-left: 0
+      margin-top: 0
+      padding-top: 5px
+      padding-bottom: 5px
+      margin-bottom: 0
+      li
+        display: flex
+        list-style: none
+        img
+          padding-right: 8px
+
+
+@media(min-width: 768px)
+  .upper-nav
+    display: flex
+  .upper-nav-stacked
+    display: none
+
+@media(min-width: 768px)
+  .container-upper
+    width: 100%
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
+  .upper-nav
+    height: 42px
+    background-color: #494846
+    display: flex
+    ul
+      display: flex
+      width: fit-content
+      margin-left: auto
+      margin-top: auto
+      margin-bottom: auto
+      li
+        display: flex
+        list-style: none
+        color: #FFFFFF
+        font-size: 12px
+        letter-spacing: 0.1px
+        line-height: 16px
+        p
+          padding-left: 4px
+
+@media(max-width: 768px)
+  .container-upper
+    margin-right: auto
+    margin-left: auto
+  .upper-nav
+    height: 42px
+    background-color: #494846
+    ul
+      display: flex
+      width: fit-content
+      margin-left: auto
+      margin-top: auto
+      margin-bottom: auto
+      padding-left: 0
+      li
+        display: flex
+        list-style: none
+        color: #FFFFFF
+        font-size: 12px
+        letter-spacing: 0.1px
+        line-height: 16px
+        p
+          padding-left: 4px
+
+.vertical-align
+  margin-top: auto
+  margin-bottom: auto
+
+.nav-font
+  font-size: 16px
+  font-family: 'din-2014', sans-serif
+  color: #4A4A4A
+  letter-spacing: 1.89px
+  text-transform: uppercase
+  line-height: 23px
+  font-weight: 300
+  font-style: normal
+
+
+
+@media(max-width: 768px)
+  .logo-text
+    font-family: 'refrigerator-deluxe', sans-serif
+    font-size: 18px
+    color: #4A4A4A
+    letter-spacing: 2.31px
+    text-align: left
+    line-height: 18px
+    text-transform: uppercase
+    font-style: normal
+    margin: 0
+    display: block
+    padding-left: 8px
+  .nav-img
+    height: 38px
+  .nav-bar
+    display: none
+
+@media(min-width: 768px)
+  .mobile-nav
+    display: none
+  .nav-img
+    height: 68px
+  .nav-bar
+    background: #FFFFFF
+    box-shadow: 0 2px 4px 1px rgba(0,0,0,0.10)
+    height: 99px
+    position: relative
+    z-index: 5
+    display: flex
+    width: 100%
+    li
+      padding-right: 35px
+      text-align: center
+  .logo-text
+    font-family: 'refrigerator-deluxe', sans-serif
+    font-size: 28px
+    color: #4A4A4A
+    letter-spacing: 3.31px
+    text-align: left
+    line-height: 27px
+    text-transform: uppercase
+    font-style: normal
+    margin: 0
+    display: block
+    padding-left: 8px
+
+.hero
+  left: 0
+  right: 0
+  display: flex
+
+.banner-text
+  bottom: 90px
+  position: absolute
+  left: 50%
+  transform: translate(-50%)
+  width: fit-content
+
+.container-img
+  position: relative
+  text-align: center
+  color: white
+  margin-top: -18px
+
+.container-img-contact
+  position: relative
+  text-align: center
+  color: white
+  margin-top: -10px
+
+.body-content-1
+  background-color: #FFFFFF
+
+.body-content-2
+  background-color: #EFEFEE
+
+.button-free-quote
+  font-size: 16px
+  letter-spacing: 0.49px
+  text-align: center
+  padding-top: 8px
+  padding-bottom: 8px
+  margin-right: auto
+  background-color: #FA7E00
+  color: #FFFFFF
+  border-radius: 10px
+  width: 183px
+  text-transform: uppercase
+  a
+    color: #FFFFFF
+    cursor: pointer
+
+.button-free-quote-sp
+  font-size: 16px
+  letter-spacing: 0.49px
+  text-align: center
+  padding-top: 8px
+  padding-bottom: 8px
+  margin-right: auto
+  background-color: #FA7E00
+  color: #FFFFFF
+  border-radius: 10px
+  width: 183px
+  text-transform: uppercase
+  a
+    color: #FFFFFF
+    cursor: pointer
+
+.button-submit
+  font-family: 'din-2014', sans-serif
+  font-weight: 300
+  text-transform: uppercase
+  font-size: 11px
+  color: #FFFFFF
+  letter-spacing: 0.34px
+  text-align: left
+  padding-top: 4px
+  padding-bottom: 4px
+  border-radius: 8px
+  background: #FA7E00
+  width: 72px
+  margin-top: 11px
+  cursor: pointer
+
+.lines
+  position: absolute
+  width: fit-content
+  margin-left: 56px
+  margin-top: -13px
+
+.submit-line-1
+  width: 9px
+  height: 2px
+  background-color: #FFFFFF
+  transform: rotate(35deg)
+  position: relative
+  top: -2px
+
+.submit-line-2
+  width: 9px
+  height: 2px
+  background-color: #FFFFFF
+  transform: rotate(-35deg)
+  position: relative
+  bottom: 0px
+
+
+@media(max-width: 768px)
+  .button-free-quote
+    font-size: 12px !important
+    width: 145px !important
+  .button-free-quote-sp
+    font-size: 12px !important
+    width: 185px !important
+
+@media(max-width: 991px)
+  .service-square
+    height: 375px !important
+
+.bold
+  font-weight: 600
+
+.logo-container
+  display: inline-block
+  margin-top: auto
+  margin-bottom: auto
+
+.free-quote
+  width: fit-content
+
+.service-square
+  width: 100%
+  height: 332px
+  background: #FFFFFF
+  box-shadow: 4px 2px 8px 1px rgba(0,0,0,0.10)
+  border-radius: 7px
+  h5
+    font-family: 'din-2014', sans-serif
+
+.service-icon
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+  p
+    font-family: 'Roboto', sans-serif
+    font-weight: 400
+    font-size: 12px
+    letter-spacing: 0px
+    line-height: 19px
+
+.orange-line
+  background-color: #FA7E00
+  height: 5px
+  width: 43.5px
+  margin-left: 10px
+
+.services-body
+  background: #FFFFFF
+  box-shadow: 0 2px 8px 0 rgba(131,131,131,0.50)
+  position: relative
+  z-index: 5
+
+@media(max-width: 768px)
+  .mobile-nav
+    display: flex
+    background: #FFFFFF
+    box-shadow: 0 2px 4px 1px rgba(0,0,0,0.10)
+    height: 60px
+    position: relative
+    z-index: 5
+  .nav-img
+    height: 38px
+
+.services-2
+  background-color: #EEECEB
+  position: relative
+  z-index: 1
+
+.hide
+  display: none
+
+@media(max-width: 991px)
+  .hide-md-below
+    display: none
+
+@media(max-width: 768px)
+  .small-h2
+    font-size: 21px
+    line-height: 26px
+  .small-h5
+    font-size: 15px
+    line-height: 22px
+
+.show
+  display: block
+
+.list-mobile
+  height: 238px
+  text-align: center
+  background-color: #FFFFFF
+  position: relative
+  z-index: 5
+  ul
+    width: fit-content
+    padding-left: 0
+    margin-left: auto
+    margin-right: auto
+    margin-top: 10px
+    li
+      list-style: none
+      padding-top: 7px
+      padding-bottom: 7px
+
+
+.about
+  background-color: #FFFFFF
+
+.horizontal-align
+  margin-left: auto
+  margin-right: auto
+
+.rotate-line
+  transform: rotate(45deg)
+
+.rotate-line-2
+  transform: rotate(-45deg)
+  margin-top: -3px !important
+
+.rotate-line-1
+  display: none
+
+.menu-line
+  height: 3px
+  width: 25px
+  margin-top: 3px
+  background-color: #3C3C3C
+
+.menu-line-2
+  height: 3px
+  width: 25px
+  margin-top: 3px
+  background-color: #3C3C3C
+
+.menu-line-1
+  height: 3px
+  width: 25px
+  margin-top: 3px
+  background-color: #3C3C3C
+
+.menu-btn
+  width: fit-content
+  height: fit-content
+  margin-left: auto
+  margin-top: auto
+  margin-bottom: auto
+  padding: 5px
+
+.contact-text
+  text-align: center
+  margin-left: auto
+  margin-right: auto
+  width: fit-content
+  margin-top: 60px
+  p
+    font-family: 'Roboto', sans-serif
+    text-align: center
+    font-size: 11px
+    color: #4A4A4A
+    text-align: center
+    line-height: 16px
+
+.form-label
+  width: fit-content
+  margin-left: auto
+  margin-right: auto
+  input
+    float: left
+    background: #FFFFFF
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.25)
+    border-radius: 4px
+    height: 31px
+    width: 197px
+  textarea
+    float: left
+    background: #FFFFFF
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.25)
+    border-radius: 4px
+    resize: none
+
+.name-label
+  width: fit-content
+  margin-left: auto
+  margin-right: auto
+
+.banner-text-about
+  margin-left: auto
+  margin-right: auto
+  width: fit-content
+  margin-top: 50px
+  margin-bottom: 50px
+
+.submit-form
+  width: fit-content
+  margin-left: auto
+  margin-right: 34px
+  cursor: pointer
+
+.multiple-items
+  img
+    height: 392px
+    overflow: hidden
+    margin-left: auto
+    margin-right: auto
+    padding-left: 15px
+    padding-right: 15px
+  margin-bottom: 120px
+
+@media(max-width: 501px)
+  .contact-form
+    margin-left: -15px !important
+
+.contact-form
+  background: #F1F1F1
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25)
+  width: 500px
+  display: block
+  margin-left: auto
+  margin-right: auto
+  height: 327px
+  border-radius: 12px
+  form
+    margin-left: auto
+    margin-right: auto
+    label
+      width: 100%
+      float: left
+      font-family: 'Work Sans', sans-serif
+      font-size: 10px
+      color: #4A4A4A
+      text-align: left
+      line-height: 14px
+      margin-top: 21px
+      p
+        margin-top: 0
+    p
+      text-align: left
+      font-family: 'Work Sans', sans-serif
+      font-size: 10px
+      color: #4A4A4A
+      text-align: left
+      line-height: 14px
+
+input[type="text"]::-webkit-input-placeholder
+  font-size: 9px
+input[type="text"]
+  padding-left: 8px
+input[type="email"]
+  padding-left: 8px
+textarea
+  padding-left: 8px
+  padding-top: 8px

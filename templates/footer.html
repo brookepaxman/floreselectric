@@ -1,0 +1,54 @@
+<div class="footer">
+  <div class="nav-bar-footer" style="padding-top: 26.5px">
+    <div class="container">
+      <hr style="color: #FFFFFF;">
+    </div>
+    <div class="container flexing">
+      <div class="logo-mobile">
+        <img style="padding-top: 5.5px; margin-left: 20px" class="vertical-align" src="/assets/icons/footer-logo.svg" alt="flores electric logo">
+        <div class="logo-container" style="padding-top: 5.5px">
+          <p class="logo-text" style="color: #D4D4D4; font-size: 18px; letter-spacing: 2.12px; line-height: 18px">Flores</p>
+          <p class="logo-text bold" style="color: #D4D4D4; font-size: 18px; letter-spacing: 2.12px; line-height: 18px">Electric</p>
+        </div>
+      </div>
+      <ul class="footer-list" style="list-style: none; width: fit-content; margin-top: 15.5px">
+        <li class="nav-font-footer vertical-align" style="margin-right: 12px; height: 18px">
+          <img src="/assets/icons/phone-icon.svg" alt="phone number">
+          <a class="nav-font-footer phone-text" href="">(832) 359-2298</a></li>
+        <li class="nav-font-footer vertical-align" style="height: 18px">
+          <img src="/assets/icons/mail-icon.svg" alt="envelope icon">
+          <a class="nav-font-footer mail-text" href="mailto:floreselectric@outlook.com">FloresElectric@outlook.com</a>
+        </li>
+      </ul>
+      <ul class="pax-logo">
+        <li>
+          <p style="padding-right: 12px; font-family: 'Roboto', sans-serif">Website by</p>
+          <img src="/assets/icons/PAX-01.svg" alt="PAX logo" style="padding-top:5.5px">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+  $(".menu-btn").click(function() {
+    $(".show-mobile").toggleClass('show');
+    $(".show-mobile").toggleClass('hide');
+    $(".menu-line").toggleClass('rotate-line');
+    $(".menu-line-2").toggleClass('rotate-line-2');
+    $(".menu-line-1").toggleClass('rotate-line-1');
+  });
+
+  $('.multiple-items').slick({
+    infinite: true,
+    slidesToScroll: 1,
+    variableWidth: true,
+    slidesToShow: 1,
+    centerMode: true,
+  });
+
+  $('.small-image').parent().css( "width", "392px" );
+
+</script>
